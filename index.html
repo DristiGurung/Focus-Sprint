@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Focus Sprint</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="timer-content">
+      <header>
+        <h1 class="header-title">Focus Sprint</h1>
+        <h3>Stay Concentrated</h3>
+      </header>
+
+      <section class="timer-container">
+        <div class="tab-list">
+          <div class="tab-item active" id="pomodoro">Focus Sprint</div>
+          <div class="tab-item" id="shortBreak">Short-Break</div>
+          <div class="tab-item" id="longBreak">Long-Break</div>
+        </div>
+
+        <div class="tab-content">
+          <div class="tab-item-content active" id="pomodoro-content">
+            <div class="time" id="pomodoroTime">25:00</div>
+            <button id="pomodoroButton">START</button>
+            <button id="pomodoroStop">PAUSE</button>
+            <button id="pomodoroReset">RESET</button>
+          </div>
+
+          <div class="tab-item-content" id="shortbreak-content">
+            <div class="time" id="shortBreakTime">5:00</div>
+            <button id="shortBreakButton">START</button>
+            <button id="shortBreakStop">PAUSE</button>
+            <button id="shortBreakReset">RESET</button>
+          </div>
+
+          <div class="tab-item-content" id="longbreak-content">
+            <div class="time" id="longBreakTime">15:00</div>
+            <button id="longBreakButton">START</button>
+            <button id="longBreakStop">PAUSE</button>
+            <button id="longBreakReset">RESET</button>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script type="text/javascript" src="script.js" />
+  </body>
+</html>
