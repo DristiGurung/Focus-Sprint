@@ -20,7 +20,7 @@ pomodoroTab.addEventListener("click",function(){
     pomodoroTab.classList.add("active");
     shortBreakTab.classList.remove("active");
     longBreakTab.classList.remove("active");
-    document.body.style.backgroundColor = "#D8D4FF";
+    document.body.style.backgroundColor = "#b0907d";
 
     
     // 5. remove all active class from tab content
